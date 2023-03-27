@@ -1,0 +1,66 @@
+/* Стиль для всего */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="submit"] {
+    padding: 5px;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 8px;
+}
+
+form {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 8px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+
+/* Стиль для таблицы */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

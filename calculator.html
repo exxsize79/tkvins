@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Калькулятор страховых выплат</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>Калькулятор страховых выплат</h1>
+    <form action="calculate.php" method="post">
+        <label for="insurance_type">Тип страховки:</label>
+        <select name="insurance_type" id="insurance_type">
+   <option value="1">Автомобильная</option>
+   <option value="2">Жизни и здоровья</option>
+   <option value="3">Недвижимости</option>
+  </select>
+        <br>
+
+        <label for="insurance_sum">Страховая сумма:</label>
+        <input type="text" name="insurance_sum" id="insurance_sum">
+        <br>
+
+        <label for="insurance_period">Период страхования (в месяцах):</label>
+        <input type="text" name="insurance_period" id="insurance_period">
+        <br>
+
+        <button type="submit">Рассчитать</button>
+    </form>
+</body>
+
+</html>
